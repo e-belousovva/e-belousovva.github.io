@@ -1,0 +1,85 @@
+const valueRu = {
+    navHome: 'Главная',
+    navAbout: 'Обо мне',
+    navPortfolio:'Порфтолио' ,
+    navContact:'Контакты' ,
+    headerSubtitle:'Привет' ,
+    headerTitle:'Я Алекс Белоусов' ,
+    headerText: 'Я занимаюсь front-end разработкой уже год. Если вам нужен сайт со всеми удобствами и пожеланиями с вашей стороны? Тогда свяжитесь со мной.' ,
+    headerButton: 'Связаться со мной' ,
+    cardsTitle: 'Мои Умения' ,
+    aboutTitle: 'ОБО МНЕ' ,
+    aboutText: 'Добрый день. Меня зовут Александр и сейчас я расскажу вам немного о себе. Я первокурсник колледжа, мне 16 лет, почти все свободное время занимает программирование, но я стараюсь соблюдать баланс между учебой и жизнью, играя в волейбол и выполняя упражнения в тренажерном зале, но я также могу играть в настольный теннис и футбол. Я очень люблю путешествовать, потому что люблю смотреть, как живут люди в других странах. Сам я из Белоруссии, где тоже есть на что посмотреть. Я посетил несколько стран, таких как Украина Грузия Турция. Я также планирую посетить Великобританию, Россию, Китай, когда мне исполнится 18 лет. Мой путь в программирование начался благодаря моей сестре, и я уважаю ее за это, она показала мне этот красивый, но порой трудный путь. Я начинал с python, но через пару месяцев перешел на веб-разработку — front-end разработку. Я выбрал программирование, так как это перспективная и очень интересная сфера как заработка, так и развития. Я регулярно изучаю английский самостоятельно в Duolingo и планирую пройти курс английского языка в будущем. Я серьезно отношусь ко всему процессу обучения и буду рад работать с реальными проектами. не только с моими пет-проектами. Если я вам интересен, или вы хотите узнать что-то еще, то ниже я оставлю все свои контакты.' ,
+    sliderTitle: 'Порфтолио' ,
+    sliderCardTitleFirst: 'Сайт визитка для приложения планирования' ,
+    sliderCardTextFirst:'Реализовано несколько слайдеров и "аккордеон" на языке JavaScript' ,
+    sliderCardTitleSecond:'Сайт школы Испанского языка в Петербурге' ,
+    sliderCardTextSecond:'Реализован слайдер и верcтка некоторых секций на языке JavaScript' ,
+    sliderCardTitleThird:'Сайт помощи заработка в интернете' ,
+    sliderCardTextThird:'Реализована работа модальных окон и некоторых секций на языке JavaScript' ,
+    footerHome: 'Главная',
+    footerAbout:'Обо Мне' ,
+    footerPortfolio: 'Портфолио',
+    footerContact:'Контакты' ,
+    footerItemFirst:'Контакты:',
+ 
+
+};
+const valueEn = {
+    
+    navHome: 'Home',
+    navAbout: 'About me',
+    navPortfolio: 'Portfolio' ,
+    navContact: 'Contact' ,
+    headerSubtitle:'HELLO' ,
+    headerTitle:'I m Alex Belousov' ,
+    headerText: 'I ve been doing front-end development for a year now. If you need a site with all the amenities and any wishes on your part? Then contact me.',
+    headerButton:'CONTACT ME' ,
+    cardsTitle: 'My Skills',
+    aboutTitle: 'ABOUT ME',
+    aboutText: 'Good afternoon. My name is Alexander and now I will tell you a little about myself. I am a college freshman, 16 years old, almost all my freetime takes the programmimg, but I try to keep studing-life balance and practise playing volleyball and doimg exercises in the gym, but I can also play table tennis and football. I like traveling very much because I fond of seeing how people live in other countries. I myself am from Belarus, where there is also something to see. I have visited few countries such as Ukraine Georgia Turkey. I also plan to visit the UK, Russia, China when I turn 18 years old. My path into programming began thanks to my sister, and I respect her for that, she showed me this beautiful, but sometimes hard way. I started with python, but after a couple of months I switched to web development — front-end development. I chose programming, as it is a promising and very interesting area of   both earnings and development. I learn English by myself in Duolingo regularry and plan to take the English course in the future. I take all studing way seriously and will happy to work with real projects. not only with my pet-projects. If you are interested in me, or you want to know something else,  then below I will leave all my contacts.',
+    sliderTitle: 'PORTFOLIO',
+    sliderCardTitleFirst:'Business card site for application planning' ,
+    sliderCardTextFirst: 'Implemented several sliders and "accordion" in JavaScript',
+    sliderCardTitleSecond:'Website of the Spanish language school in St. Petersburg' ,
+    sliderCardTextSecond: 'Implemented slider and layout of some sections in JavaScript',
+    sliderCardTitleThird: 'Website for making money online',
+    sliderCardTextThird: 'Implemented modal windows and some sections in JavaScript',
+    footerHome: 'Home',
+    footerAbout: 'About me',
+    footerPortfolio:'Portfolio' ,
+    footerContact: 'Contact',
+    footerItemFirst:'Contact:',
+    
+  };
+
+const selectors = {
+    
+    navHome: '.nav__content_item-first',
+    navAbout: '.nav__content_item-second',
+    navPortfolio: '.nav__content_item-third' ,
+    navContact: '.nav__content_item-four' ,
+    headerSubtitle:'.header__subtitle' ,
+    headerTitle:'.header__title' ,
+    headerText: '.header__text',
+    headerButton:'.header__button' ,
+    cardsTitle: '.cards__title',
+    aboutTitle: '.about__title',
+    aboutText: '.about__text',
+    sliderTitle: '.slider__title',
+    sliderCardTitleFirst:'.slider__card_title-first' ,
+    sliderCardTextFirst: '.slider__card_text-first',
+    sliderCardTitleSecond:'.slider__card_title-second' ,
+    sliderCardTextSecond: '.slider__card_text-second',
+    sliderCardTitleThird: '.slider__card_title-third',
+    sliderCardTextThird: '.slider__card_text-third',
+    footerHome: '.footer__left_item-first',
+    footerAbout: '.footer__left_item-second',
+    footerPortfolio:'.footer__left_item-third' ,
+    footerContact: '.footer__left_item-four',
+    footerItemFirst:'.footer__center_text-first',
+    
+    
+};
+
+export {selectors,valueEn,valueRu};
