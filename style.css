@@ -477,14 +477,10 @@ html{
     left: 63px;
 }
 .about__text{
-    
     color:white;
-    
-    
     line-height: 24px;
     letter-spacing: 0.01em;
     text-align: justify;
-
 }
 
 .about__right{
@@ -554,7 +550,6 @@ html{
 .swiper__button_prev{
     width: 27px;
     height: 24px;
-    background:url(docs/assets/img/left.png) center/cover no-repeat;
     position: absolute;
     padding: 25px;
     transform: translateX(30px);
@@ -563,7 +558,6 @@ html{
 .swiper__button_next{
     width: 30px;
     height: 30px;
-    background:url(docs/assets/img/skip.png) center/cover no-repeat;
     padding: 25px;
     transform: translate(-30px,0px);
 }
