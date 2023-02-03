@@ -141,8 +141,8 @@ html{
     justify-content: space-between;
 }
 .header__content{
-    width: 447px;
-    padding: 20px 0px;
+    width: 647px;
+    padding: 10px 0px;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -151,10 +151,9 @@ html{
     transition: 1s;
 }
 .header__subtitle{
-    margin-bottom: 27px;
+    margin-bottom: 10px;
     color:white;
-    
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 600;
     line-height: 54px;
     letter-spacing: 0em;
@@ -162,18 +161,17 @@ html{
     
 }
 .header__title{
-    margin-bottom: 27px;
-  
-    font-size: 72px;
+    margin-bottom: 10px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 82px;
     letter-spacing: 0em;
     text-align: left;
     color:white;    
 }
-.contact__me{
+/* .contact__me{
     display: inline;
-}
+} */
 .header__text{
     font-size: 17px;
     font-weight: 300;
@@ -181,8 +179,7 @@ html{
     letter-spacing: 0em;
     text-align: left;
     color:#d3d1ff;
-
-    margin-bottom: 27px;    
+    margin-bottom: 37px;    
 }
 .header__button{
     color:black;
@@ -307,7 +304,7 @@ html{
 }
 
 .header__circle_person{
-    transform: scale(-0.7,0.7);
+    width: 400px;
 }
 
 .cards{
@@ -411,6 +408,18 @@ html{
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
+}
+.portfolio__description{
+    margin: 14px;
+    color: #E4E4E4;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 30px;
 }
 .about{
     width: 100%;
@@ -549,7 +558,7 @@ html{
 
 .slider__card_img{
     max-width: 900px;
-    height: 500px;
+    height: 400px;
 }
 .slider__card_right{
     display: flex;
@@ -568,8 +577,9 @@ html{
     margin-top: 10px; 
 }
 .slider__card_text{
-    
-    
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 18px;
     font-weight: 300;
     line-height: 21px;
@@ -713,7 +723,7 @@ html{
 .header__circle_item-first-anim{
     position: absolute;
     top: 80%;
-    left: 3%;
+    left: 13%;
     
     background-color:#4141414a;
     
@@ -721,22 +731,21 @@ html{
 
 .header__circle_item-second-anim{
     position: absolute;
-    
-    top: 50%;
+    top: 57%;
     left: -5%;
     background-color:#4141414a;
 }
 
 .header__circle_item-third-anim{
     position: absolute;
-    top: 10%;
-    left: 27%;
+    top: 27%;
+    left: -8%;
     background-color:#4141414a;
 }
 .header__circle_item-four-anim{
     position: absolute;
-    top: 10%;
-    left: 70%;
+    top: 0%;
+    left: 3%;
     background-color:#4141414a;
 }
 .hide{
