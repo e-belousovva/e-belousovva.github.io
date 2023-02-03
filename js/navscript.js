@@ -15,37 +15,48 @@ function TeleportToTop(){
     const secondItem = document.querySelector('.nav__content_item-second');
     const thirdItem = document.querySelector('.nav__content_item-third');
     const fourItem = document.querySelector('.nav__content_item-four');
+    const fiveItem = document.querySelector('.nav__content_item-five');
         firstItem.classList.add('nav__content_item-active');
           secondItem.classList.remove('nav__content_item-active');
           thirdItem.classList.remove('nav__content_item-active');
           fourItem.classList.remove('nav__content_item-active');
+          fiveItem.classList.remove('nav__content_item-active');
         document.addEventListener('scroll', () => {
-        if(window.scrollY >= 0 && window.scrollY <= 1656){
+        if(window.scrollY >= 0 && window.scrollY <= 500){
             firstItem.classList.add('nav__content_item-active');
             secondItem.classList.remove('nav__content_item-active');
             thirdItem.classList.remove('nav__content_item-active');
             fourItem.classList.remove('nav__content_item-active');
+            fiveItem.classList.remove('nav__content_item-active');
         }
-        else if(window.scrollY >= 1656 && window.scrollY < 2816){
+        else if(window.scrollY >= 500 && window.scrollY < 1800){
           firstItem.classList.remove('nav__content_item-active');
           secondItem.classList.add('nav__content_item-active');
           thirdItem.classList.remove('nav__content_item-active');
           fourItem.classList.remove('nav__content_item-active');
+          fiveItem.classList.remove('nav__content_item-active');
         }
-        else if(window.scrollY > 2816 && window.scrollY < 3200 ){
+        else if(window.scrollY > 1800 && window.scrollY < 2800 ){
           firstItem.classList.remove('nav__content_item-active');
           secondItem.classList.remove('nav__content_item-active');
          thirdItem.classList.add('nav__content_item-active');
           fourItem.classList.remove('nav__content_item-active');
+          fiveItem.classList.remove('nav__content_item-active');
         }
-        else if(window.scrollY > 3200 && window.scrollY <= 3456){
+        else if(window.scrollY > 2800 && window.scrollY <= 3600){
           firstItem.classList.remove('nav__content_item-active');
           secondItem.classList.remove('nav__content_item-active');
           thirdItem.classList.remove('nav__content_item-active');
           fourItem.classList.add('nav__content_item-active');
-          
+          fiveItem.classList.remove('nav__content_item-active');
         }
-        
+        else if(window.scrollY > 3600){
+          firstItem.classList.remove('nav__content_item-active');
+          secondItem.classList.remove('nav__content_item-active');
+          thirdItem.classList.remove('nav__content_item-active');
+          fourItem.classList.remove('nav__content_item-active');
+          fiveItem.classList.add('nav__content_item-active');
+        }
       });
   }
 

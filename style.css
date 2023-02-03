@@ -171,21 +171,23 @@ html{
     text-align: left;
     color:white;    
 }
+.contact__me{
+    display: inline;
+}
 .header__text{
-   
     font-size: 17px;
     font-weight: 300;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-    color:#979A9A;
+    color:#d3d1ff;
 
     margin-bottom: 27px;    
 }
 .header__button{
     color:black;
-    padding: 14px 40px;
-    background-color: #E2A300;
+    padding: 18px 40px;
+    background-color: #dbbb24;
     box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
     border-radius: 6px;
     border: none;
@@ -455,14 +457,15 @@ html{
 }
 .about__img-first{
     border:14px solid #2C2C2C ;
+    height: 400px;
     border-radius:14px;
     transform: scale(0);
     transition: 1s;
-    
 }
 
 .about__img-second{
     border:14px solid #2C2C2C ;
+    height: 400px;
     border-radius:14px;
     transition: 1s;
     transform: scale(0);
@@ -470,6 +473,7 @@ html{
 
 .about__img-third{
     border:14px solid #2C2C2C ;
+    height: 400px;
     border-radius:14px;
     transform: scale(0);
     transition: 1s;
@@ -622,7 +626,6 @@ html{
     align-items:flex-start;
 }
 .footer__left_item{
-    
     margin-bottom: 16px;
     text-decoration: none;
     font-size: 18px;
