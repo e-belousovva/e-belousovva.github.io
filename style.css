@@ -20,12 +20,12 @@ html{
 .nav{
     width: 100%;
     height: fit-content;
-    padding: 30px 0px;
+    padding: 20px 0px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
-    background: #2D2D2D;
+    background: #2c1d47;
 }
 .nav__menu{
     width: 100%;
@@ -129,7 +129,7 @@ html{
 .header{
     width: 100%;
     height: 849px;
-    background: #2D2D2D;
+    background: #361c64;
     padding-top: 113px;
     z-index: 3;
     
@@ -142,7 +142,7 @@ html{
 }
 .header__content{
     width: 447px;
-    padding: 142px 0px;
+    padding: 20px 0px;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
@@ -212,7 +212,7 @@ html{
 }
 .header__img_circle-bg{
     position: absolute;
-    top: 60%;
+    top: 30%;
     left: 53%;
     transform: translate(-50%,-50%) scale(0.8);
     
@@ -222,7 +222,7 @@ html{
 }
 .header__img_circle{
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 2;
@@ -234,7 +234,7 @@ html{
     height: 90px;
     border-radius:50%;
     z-index: 10;
-    box-shadow:0px 0px 200px rgba(0, 196, 240, 1);
+    box-shadow:0px 0px 200px rgba(153 96 192);
     
     
 }
@@ -254,11 +254,11 @@ html{
     background-color:#414141;
     transform: translateX(-1.5px);
 }
-.header__circle_item img{
-    width: 60%;
-    height: 60%;
+.header__circle_item img {
+    width: 70%;
+    height: 70%;
     position: absolute;
-    transform: translate(35%,35%);
+    transform: translate(23%,21%);
 }
 .header__circle_item-second{
     position: absolute;
@@ -305,7 +305,7 @@ html{
 }
 
 .header__circle_person{
-    transform: scale(-0.8,0.8);
+    transform: scale(-0.7,0.7);
 }
 
 .cards{
@@ -339,13 +339,19 @@ html{
     justify-content: center;
     margin-bottom: 30px;
 }
+.cards__second{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 30px
+}
 .cards__bottom{
     width: 100%;
     display: flex;
     align-items:center;
     justify-content: center;
-}
-.cards__top{
+}.cards__top{
     display: flex;
     align-items:center;
 }
@@ -354,35 +360,55 @@ html{
     flex-direction: column;
     align-items:center;
     background-color: #2A2A2A;
-    padding: 50px 60px 50px 60px;
+    padding: 50px 10px 50px 10px;
     border-radius: 30px;
     box-shadow:0px 4px 6px rgba(0, 0, 0, 0.47);
     margin-right: 40px;
     width: 270px;
-    height: 270px;
-    
+    height: 330px;
     transform: scale(0);
     transition: 1s;
-    
 }
+.cards__item_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #2A2A2A;
+    padding: 50px 10px 50px 10px;
+    border-radius: 30px;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.47);
+    margin-right: 40px;
+    width: 270px;
+    height: 330px;
+    transform: scale(0);
+    transition: 1s;
+}
+
 .cards__item:hover .cards__item_img{
     transform: rotate(360deg);
 }
 .cards__item_img{
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     transition: 0.75s;
+    margin-bottom: 50px;
 }
 .cards__item_text{
-    margin-top: 40px;
     color:#E4E4E4;
-
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 280;
     line-height: 29px;
     letter-spacing: 0em;
-    text-align: left;
-    
+    text-align: center;
+}
+.cards__item_text_small{
+    margin-top: 14px;
+    color:#E4E4E4;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 .about{
     width: 100%;
@@ -450,7 +476,7 @@ html{
 }
 
 .about__content{
-    height: 750px;
+    height: 420px;
     z-index: 4;
     display: flex;
     flex-direction: column;
@@ -573,7 +599,6 @@ html{
 }
 .swiper .swiper-button-prev:after{
     color:white;
-
     font-size: 0px;
 }
 .slider-wrapper{
@@ -689,7 +714,7 @@ html{
     top: 80%;
     left: 3%;
     
-    background-color:#414141;
+    background-color:#4141414a;
     
 }
 
@@ -698,20 +723,20 @@ html{
     
     top: 50%;
     left: -5%;
-    background-color:#414141;
+    background-color:#4141414a;
 }
 
 .header__circle_item-third-anim{
     position: absolute;
     top: 10%;
     left: 27%;
-    background-color:#414141;
+    background-color:#4141414a;
 }
 .header__circle_item-four-anim{
     position: absolute;
     top: 10%;
     left: 70%;
-    background-color:#414141;
+    background-color:#4141414a;
 }
 .hide{
     display: none;
