@@ -12,7 +12,7 @@ function moveHeaderText(){
 
   function scaleCardsItem(){
     document.addEventListener('scroll', () => {
-      if(window.scrollY >= 710){
+      if(window.scrollY >= 500){
         const cardItem = document.querySelectorAll('.cards__item');
         cardItem.forEach((item) => {
           item.classList.add('cards__item-anim');
