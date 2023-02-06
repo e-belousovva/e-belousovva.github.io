@@ -1,29 +1,4 @@
-const valueRu = {
-    navHome: 'Главная',
-    navSkills: 'Навыки',
-    navAbout: 'Обо мне',
-    navPortfolio:'Порфтолио' ,
-    navContact:'Контакты' ,
-    headerSubtitle:'Привет' ,
-    headerTitle:'Я Алёна Белоусова' ,
-    headerText: 'Занимаюсь back-end разработкой на php с 2020 года. Считаю, что не всегда количество лет опыта оправдывает знания. Гораздо важнее то, что человек успел освоить за это время. Вы можете узнать о моем опыте, soft и hard skills ниже.' ,
-    headerButton: 'Связаться со мной' ,
-    cardsTitle: 'Навыки' ,
-    aboutTitle: 'ОБО МНЕ' ,
-    aboutText: 'Разрабатываю с нуля, добавляю новые фичи и занимаюсь рефакторингом проектов на PHP (laravel/symfony). Опыт работы с монолитами и API. Следую DRY, KISS, YAGNI, SOLID, где это уместно. Работаю с MYSQL, PostgreSQL. Все приложения я разрабатываю с помощью Docker (docker-compose). В качестве системы управления использую Git, каждое утро git pull :) Пишу красивый и читаемый, легко масштабируемый код, покрытый тестами. Интерфейсы, абстрактные классы и трейты для меня не просто термины ООП. На вопрос о позднем статическом связывании на собеседовании считаю честным спросить в ответ "где вы это используете?" ;). Открыта для новых знаний и мозгового штурма. Есть опыт работы в англоязычной команде. (уровень английского B1+). Я люблю путешествовать, поэтому предпочитаю работать удаленно, но не против время от времени заходить в офис и встречаться с коллегами. В свободное время я занимаюсь в тренажерном зале, читаю книги по психологии и провожу время с семьей и друзьями.' ,
-    sliderTitle: 'Порфтолио' ,
-    sliderCardTitleFirst: 'Custom Log' ,
-    sliderCardTextFirst:'Пакет Composer для логирования данных в файл или базу данных с помощью Facade. Подключен ПСР-3.' ,
-    sliderCardTitleSecond:'Restfull API native PHP',
-    sliderCardTextSecond:'Приложение TODO lists в Docker на NATIVE PHP с авторизацией, middlewares, CRUDLs по спискам задач и задачам,<br> также реализован экспорт в pdf. Избегалось использование каких-либо ненужных зависимостей.' ,
-    footerHome: 'Главная',
-    footerSkills: 'Навыки',
-    footerAbout:'Обо Мне' ,
-    footerContact:'Контакты' ,
-    footerItemFirst:'Контакты:',
- 
 
-};
 const valueEn = {
     
     navHome: 'Home',
@@ -50,13 +25,39 @@ const valueEn = {
     footerItemFirst:'Contacts:',
     
   };
+  const valueRu = {
+    navHome: 'Главная',
+    navSkills: 'Навыки',
+    navAbout: 'Обо мне',
+    navPortfolio:'Порфтолио' ,
+    navContact:'Контакты' ,
+    headerSubtitle:'Привет' ,
+    headerTitle:'Я Алёна Белоусова' ,
+    headerText: 'Занимаюсь back-end разработкой на php с 2020 года. Считаю, что не всегда количество лет опыта оправдывает знания. Гораздо важнее то, что человек успел освоить за это время. Вы можете узнать о моем опыте, soft и hard skills ниже.' ,
+    headerButton: 'Связаться со мной' ,
+    cardsTitle: 'Навыки' ,
+    aboutTitle: 'ОБО МНЕ' ,
+    aboutText: 'Разрабатываю с нуля, добавляю новые фичи и занимаюсь рефакторингом проектов на PHP (laravel/symfony). Опыт работы с монолитами и API. Следую DRY, KISS, YAGNI, SOLID, где это уместно. Работаю с MYSQL, PostgreSQL. Все приложения я разрабатываю с помощью Docker (docker-compose). В качестве системы управления использую Git, каждое утро git pull :) Пишу красивый и читаемый, легко масштабируемый код, покрытый тестами. Интерфейсы, абстрактные классы и трейты для меня не просто термины ООП. На вопрос о позднем статическом связывании на собеседовании считаю честным спросить в ответ "где вы это используете?" ;). Открыта для новых знаний и мозгового штурма. Есть опыт работы в англоязычной команде. (уровень английского B1+). Я люблю путешествовать, поэтому предпочитаю работать удаленно, но не против время от времени заходить в офис и встречаться с коллегами. В свободное время я занимаюсь в тренажерном зале, читаю книги по психологии и провожу время с семьей и друзьями.' ,
+    sliderTitle: 'Порфтолио' ,
+    sliderCardTitleFirst: 'Custom Log' ,
+    sliderCardTextFirst:'Пакет Composer для логирования данных в файл  или базу данных с помощью Facade. Подключен ПСР-3.' ,
+    sliderCardTitleSecond:'Restfull API native PHP',
+    sliderCardTextSecond:'Приложение TODO lists в Docker на NATIVE PHP с авторизацией, middlewares, CRUDLs по спискам задач и задачам,<br> также реализован экспорт в pdf. Избегалось использование каких-либо ненужных зависимостей.' ,
+    footerHome: 'Главная',
+    footerSkills: 'Навыки',
+    footerAbout:'Обо Мне' ,
+    footerContact:'Контакты' ,
+    footerItemFirst:'Контакты:',
+ 
 
+};
 const selectors = {
     
     navHome: '.nav__content_item-first',
     navAbout: '.nav__content_item-second',
     navPortfolio: '.nav__content_item-third' ,
     navContact: '.nav__content_item-four' ,
+    navfive:".nav__content_item-five",
     headerSubtitle:'.header__subtitle' ,
     headerTitle:'.header__title' ,
     headerText: '.header__text',

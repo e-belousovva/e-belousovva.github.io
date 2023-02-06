@@ -43,14 +43,14 @@ function TeleportToTop(){
           fourItem.classList.remove('nav__content_item-active');
           fiveItem.classList.remove('nav__content_item-active');
         }
-        else if(window.scrollY > 2800 && window.scrollY <= 3600){
+        else if(window.scrollY > 2800 && window.scrollY <= 3800){
           firstItem.classList.remove('nav__content_item-active');
           secondItem.classList.remove('nav__content_item-active');
           thirdItem.classList.remove('nav__content_item-active');
           fourItem.classList.add('nav__content_item-active');
           fiveItem.classList.remove('nav__content_item-active');
         }
-        else if(window.scrollY > 3600){
+        else if(window.scrollY > 3800){
           firstItem.classList.remove('nav__content_item-active');
           secondItem.classList.remove('nav__content_item-active');
           thirdItem.classList.remove('nav__content_item-active');
