@@ -22,10 +22,10 @@ const valueEn = {
   sliderCardTitleFirst:'Custom Log' ,
   sliderCardTextFirst: 'Composer package for logging data to a file or database using Facade. Added PSR-3.',
   sliderCardTitleSecond:'Restfull API native PHP' ,
-  sliderCardTextSecond: 'TODO list app in Docker on NATIVE PHP with authorization, middlewares, CURLs by lists and tasks, also implemented export to pdf. Was avoided any unnecessary dependencies.',
+  sliderCardTextSecond: 'TODO list app in Docker on NATIVE PHP with authentication, middlewares, CURLs by lists and tasks, also implemented export to pdf. Was avoided any unnecessary dependencies.',
   footerHome: 'Home',
-  footerAbout: 'Skills',
-  footerPortfolio:'About me' ,
+  footerSkills: 'Skills',
+  footerAbout:'About me' ,
   footerItemFirst:'Contacts:',
   
 };
@@ -51,16 +51,14 @@ const valueRu = {
   sliderCardTitleFirst: 'Custom Log' ,
   sliderCardTextFirst:'Пакет Composer для логирования данных в файл  или базу данных с помощью Facade. Подключен ПСР-3.' ,
   sliderCardTitleSecond:'Restfull API native PHP',
-  sliderCardTextSecond:'Приложение TODO lists в Docker на NATIVE PHP с авторизацией, middlewares, CRUDLs по спискам задач и задачам, также реализован экспорт в pdf. Избегалось использование каких-либо ненужных зависимостей.' ,
+  sliderCardTextSecond:'Приложение TODO lists в Docker на NATIVE PHP с аутентификацией, middlewares, CRUDLs по спискам задач и задачам, также реализован экспорт в pdf. Избегалось использование каких-либо ненужных зависимостей.' ,
   footerHome: 'Главная',
   footerSkills: 'Навыки',
   footerAbout:'Обо Мне' ,
   footerItemFirst:'Контакты:',
-
-
 };
+
 const selectors = {
-  
   navHome: '.nav__content_item-first',
   navAbout: '.nav__content_item-second',
   navPortfolio: '.nav__content_item-third' ,
@@ -84,11 +82,9 @@ const selectors = {
   sliderCardTitleSecond:'.slider__card_title-second' ,
   sliderCardTextSecond: '.slider__card_text-second',
   footerHome: '.footer__left_item-first',
-  footerAbout: '.footer__left_item-second',
-  footerPortfolio:'.footer__left_item-third' ,
+  footerSkills:'.footer__left_item-second' ,
+  footerAbout: '.footer__left_item-third',
   footerItemFirst:'.footer__center_text-first',
-  
-  
 };
 
 export {selectors,valueEn,valueRu};
